@@ -18,7 +18,7 @@
 
    const moleHeads = document.querySelectorAll('.wgs_mole-head:not(.wgs_mole-head--whacked');
    if (!moleHeads.length) {
-     return
+     return "you won"
    }
    const randomMole = moleHeads[Math.floor(Math.random() * moleHeads.length)];
    //console.log(randomMole)
